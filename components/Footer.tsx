@@ -1,32 +1,32 @@
 import React from "react";
-  import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Input, DropdownItem, DropdownTrigger, Dropdown, DropdownMenu, Avatar} from "@nextui-org/react";
-  import {AcmeLogo} from "./AcmeLogo.jsx";
-  import {SearchIcon} from "./SearchIcon.jsx";
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Input, DropdownItem, DropdownTrigger, Dropdown, DropdownMenu, Avatar} from "@nextui-org/react";
+import {AcmeLogo} from "./AcmeLogo.jsx";
+import {SearchIcon} from "./SearchIcon.jsx";
 
 const Footer = () => {
     return (
-      <Navbar isBordered>
+      <Navbar className="bg-blue-800 min-h-[110px] text-white" isBordered position="static">
         <NavbarContent justify="start">
           <NavbarBrand className="mr-4">
             <AcmeLogo />
-            <p className="hidden sm:block font-bold text-inherit">Habilitaciones Rosario</p>
+            <p className="hidden sm:block font-bold text-2xl text-inherit">Habilitaciones Rosario</p>
           </NavbarBrand>
-          <NavbarContent className="hidden sm:flex gap-3">
-          <NavbarItem>
-          <Link color="foreground" href="#">
-            Servicios
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page">
-            Preguntas Frecuentes
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Regularizaciones
-          </Link>
-        </NavbarItem>
+          <NavbarContent className="hidden sm:flex gap-6 ml-12">
+            <NavbarItem>
+              <Link color="foreground" href="#" className="text-lg">
+                Servicios
+              </Link>
+            </NavbarItem>
+            <NavbarItem isActive>
+              <Link href="#" aria-current="page" color="blue-400" className="text-lg">
+                Preguntas Frecuentes
+              </Link>
+            </NavbarItem>
+            <NavbarItem>
+              <Link color="foreground" href="#" className="text-lg">
+                Regularizaciones
+              </Link>
+            </NavbarItem>
           </NavbarContent>
         </NavbarContent>
   
@@ -74,7 +74,6 @@ const Footer = () => {
         </NavbarContent>
       </Navbar>
     );
-  }
-  
+}
 
 export default Footer;

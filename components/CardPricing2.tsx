@@ -3,17 +3,17 @@ import { Card, CardHeader, CardBody, CardFooter, Divider, Link, Button } from "@
 
 function CardPricing2() {
     return (
-        <Card className="max-w-[370px] h-[450px] bg-gray-800 mt-4 text-white">
-            <CardHeader className="relative flex-col gap-3 bg-gray-700">
+        <Card className="max-w-[370px] h-[470px] bg-blue-700 mt-4 text-white shadow-lg transform transition-transform duration-300 ease-in-out hover:scale-105">
+            <CardHeader className="relative flex-col gap-3 bg-blue-800">
                 <div className="flex flex-col self-start">
                     <p className="text-2xl font-bold">Habilitaciones comerciales</p>
-                    <p className="text-sm text-gray-400">Gestión online y asesoramiento</p>
+                    <p className="text-sm text-white">Gestión online y asesoramiento</p>
                 </div>
             </CardHeader>
 
-            <Divider className="bg-gray-600" />
+            <Divider className="bg-white" />
 
-            <CardBody className="text-gray-400 scrollbar-hide">
+            <CardBody className=" scrollbar-hide">
                 <ul className="px-1 space-y-2">
                     <li>Trámites de habilitación y renovación</li>
                     <li>Asesoramiento personalizado para tu negocio</li>

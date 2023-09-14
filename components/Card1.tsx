@@ -3,17 +3,17 @@ import { Card, CardHeader, CardBody, CardFooter, Divider, Link, Button } from "@
 
 function Card1() {
     return (
-        <Card className="max-w-[370px] h-[450px] bg-green-700 mt-4 text-white">
-            <CardHeader className="relative flex-col gap-3 bg-green-600">
+        <Card className="max-w-[370px] h-[470px] bg-green-700 mt-4 text-white shadow-lg transform transition-transform duration-300 ease-in-out hover:scale-105">
+            <CardHeader className="relative flex-col gap-3 bg-green-800">
                 <div className="flex flex-col self-start">
                     <p className="text-2xl font-bold">Planos, finales de Obra</p>
-                    <p className="text-sm text-green-400">Regularizaciones</p>
+                    <p className="text-sm ">Regularizaciones</p>
                 </div>
             </CardHeader>
 
-            <Divider className="bg-green-500" />
+            <Divider className="bg-white" />
 
-            <CardBody className="text-green-300 scrollbar-hide">
+            <CardBody className="scrollbar-hide">
                 <ul className="px-1 space-y-2">
                     <li>Elaboración y revisión de planos arquitectónicos</li>
                     <li>Trámites para finales de obra</li>

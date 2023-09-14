@@ -4,17 +4,17 @@ import { Card, CardHeader, CardBody, CardFooter, Divider, Link, Button } from "@
 
 function CardPricing1() {
     return (
-        <Card className="max-w-[370px] h-[450px] bg-blue-700 mt-4 text-white">
-            <CardHeader className="relative flex-col gap-3 bg-blue-600">
+      <Card className="max-w-[370px] h-[470px] bg-orange-700 mt-4 text-white shadow-lg transform transition-transform duration-300 ease-in-out hover:scale-105">
+            <CardHeader className="relative flex-col gap-3 bg-orange-800">
                 <div className="flex flex-col self-start">
                     <p className="text-2xl font-bold">Técnicos Matriculados</p>
-                    <p className="text-sm text-blue-400">Trabajos especiales</p>
+                    <p className="text-sm ">Trabajos especiales</p>
                 </div>
             </CardHeader>
 
-            <Divider className="bg-blue-500" />
+            <Divider className="bg-white" />
 
-            <CardBody className="text-blue-300 scrollbar-hide">
+            <CardBody className=" scrollbar-hide">
                 <ul className="px-1 space-y-2">
                     <li>Asesoramiento técnico especializado</li>
                     <li>Elaboración de informes técnicos</li>
