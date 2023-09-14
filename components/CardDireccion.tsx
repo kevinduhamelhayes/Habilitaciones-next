@@ -1,9 +1,9 @@
 import React from "react";
 import { Card, CardHeader, CardBody, CardFooter, Divider, Link, Image, Button } from "@nextui-org/react";
 
-function CardPricing1() {
+function CardDireccion() {
     return (
-<Card className="max-w-[370px] h-[470px] bg-red-700 mt-4 text-white shadow-lg transform transition-transform duration-300 ease-in-out hover:scale-105">
+<Card className="max-w-[500px] h-[400px] md:max-w-[370px] md:h-[470px] bg-red-700 mt-4 text-white shadow-lg transform transition-transform duration-300 ease-in-out hover:scale-105">
     <CardHeader className="relative flex-col gap-3 bg-red-800">
         <div className="flex flex-col self-start">
             <p className="text-2xl font-bold">Dirección de Obra</p>
@@ -26,10 +26,6 @@ function CardPricing1() {
         </ul>
     </CardBody>
 </Card>
-
     );
 }
-
-
-
-export default CardPricing1;
+export default CardDireccion;

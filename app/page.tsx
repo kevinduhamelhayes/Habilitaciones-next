@@ -7,6 +7,8 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import Body from '@/components/Body';
 import Cards from '@/components/Cards';
+import Section from '@/components/Section';
+
 
 
 export default function Home() {
@@ -16,7 +18,9 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Cards />
+
         <Body />
+        <Section />
         <Footer />
       </main>
     </NextUIProvider>

@@ -1,16 +1,18 @@
 import React from 'react'
-import Card1 from './Card1'
-import CardPricing2 from './CardPricing2'
-import CardPricing from './CardPricing'
-import CardPricing1 from './CardPricing1'
+import Card1 from './CardPlanos'
+
+import CardTecnicos from './CardTecnicos'
+import CardDireccion from './CardDireccion'
+import CardHabilitaciones from './CardHabilitaciones'
+import CardPlanos from './CardPlanos'
+
             const Cards = () => {
               return (
                 <div className='flex flex-wrap justify-center items-center gap-8 mt-8 mb-8  '>
-                <CardPricing2/>
-                <Card1/>
-                <CardPricing/>
-                <CardPricing1
-                />
+                <CardHabilitaciones/>
+                <CardPlanos/>
+                <CardTecnicos/>
+                <CardDireccion/>
                 </div>
               )
             }
