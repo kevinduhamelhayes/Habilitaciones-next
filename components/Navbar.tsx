@@ -13,17 +13,17 @@ const Component = () => {
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-6 ml-12" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#" className="text-lg">
+          <Link color="foreground" href="#" className="text-lg text-white">
             Servicios
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link href="#" aria-current="page" color="blue-400" className="text-lg">
+          <Link href="#"  className="text-lg text-white">
             Preguntas Frecuentes
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#" className="text-lg">
+          <Link color="foreground" href="#" className="text-lg text-white">
             Regularizaciones
           </Link>
         </NavbarItem>
@@ -32,7 +32,7 @@ const Component = () => {
         
         <NavbarItem>
         <a href="https://api.whatsapp.com/send/?phone=%2B543415883040&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
-          <Button as="a" color="success" className="text-xl text-white bg-blue-600 px-8 py-3" href="#" variant="solid">
+          <Button as="a" color="success" className="text-xl text-white  px-8 py-6 mx-8" href="#" variant="solid">
             Wats App
           </Button>
           </a>

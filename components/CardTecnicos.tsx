@@ -15,15 +15,14 @@ function CardTecnicos() {
             <Divider className="bg-white" />
 
             <CardBody className=" scrollbar-hide">
-                <ul className="px-1 space-y-2">
+                <ul className="px-1 space-y-2 text-lg">
                     <li>Asesoramiento técnico especializado</li>
                     <li>Elaboración de informes técnicos</li>
                     <li>Inspecciones técnicas y certificaciones</li>
-                    <li>Consultoría en proyectos de ingeniería y arquitectura</li>
-                    <li>Trabajos de medición y cálculos estructurales</li>
-                    <li>Supervisión y dirección de obras</li>
-                    <li>Regularizaciones y trámites ante entidades</li>
-                    <li>Soporte técnico en instalaciones especiales</li>
+                    <li>Consultoría Electrica, hidraulica neumatica y de gas</li>
+                    <li>Trabajos de medición y cálculos </li>
+                    <li>Regularizaciones y trámites ante entidades Litoral Gas, Epe</li>
+                    <li>Asesoria en instalaciones de deteccion de incendio</li>
                 </ul>
             </CardBody>
         </Card>

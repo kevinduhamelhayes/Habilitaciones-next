@@ -14,15 +14,14 @@ function CardPlanos() {
             <Divider className="bg-white" />
 
             <CardBody className="scrollbar-hide">
-                <ul className="px-1 space-y-2">
-                    <li>Elaboración y revisión de planos arquitectónicos</li>
+                <ul className="px-1 space-y-2 text-lg">
+                    <li>Elaboración y revisión de planos</li>
+                    <li>Planos de obra nueva y PROCREAR</li>
                     <li>Trámites para finales de obra</li>
                     <li>Regularización de construcciones existentes</li>
                     <li>Consultoría en normativas de construcción</li>
                     <li>Asesoramiento en permisos y licencias</li>
                     <li>Inspecciones y certificaciones de obra</li>
-                    <li>Integración con entidades municipales</li>
-                    <li>Soporte técnico en proyectos de construcción</li>
                 </ul>
             </CardBody>
         </Card>

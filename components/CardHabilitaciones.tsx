@@ -3,8 +3,8 @@ import { Card, CardHeader, CardBody, CardFooter, Divider, Link, Button } from "@
 
 function CardHabilitaciones() {
     return (
-        <Card className="max-w-[500px] h[400px] md:max-w-[370px] md:h-[470px] bg-blue-700 mt-4 text-white shadow-lg transform transition-transform duration-300 ease-in-out hover:scale-105">
-            <CardHeader className="relative flex-col gap-3 bg-blue-800">
+        <Card className="max-w-[500px] h[400px] shadow-2xl md:max-w-[370px] md:h-[470px] bg-slate-800 mt-4 text-white  transform transition-transform duration-300 ease-in-out hover:scale-105">
+            <CardHeader className="relative flex-col gap-3 bg-black">
                 <div className="flex flex-col self-start">
                     <p className="text-2xl font-bold">Habilitaciones comerciales</p>
                     <p className="text-sm text-white">Gestión online y asesoramiento</p>
@@ -14,15 +14,13 @@ function CardHabilitaciones() {
             <Divider className="bg-white" />
 
             <CardBody className=" scrollbar-hide">
-                <ul className="px-1 space-y-2">
+                <ul className="px-1 space-y-2 text-lg text-white">
                     <li>Trámites de habilitación y renovación</li>
                     <li>Asesoramiento personalizado para tu negocio</li>
                     <li>Soporte técnico rápido y eficiente</li>
                     <li>Integración con sistemas municipales y estatales</li>
                     <li>Consultoría en normativas y regulaciones</li>
-                    <li>Acceso a plataformas de gestión online</li>
-                    <li>Webinars y capacitaciones sobre regulaciones</li>
-                    <li>Asesoramiento en estrategias de cumplimiento</li>
+                    <li>Inspecciones y certificaciones Electricas y de puesta a tierra</li>
                 </ul>
             </CardBody>
 

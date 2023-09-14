@@ -14,15 +14,16 @@ function CardDireccion() {
     <Divider className="bg-white" />
 
     <CardBody className=" scrollbar-hide">
-        <ul className="px-1 space-y-2">
-            <li>Supervisión constante de la obra en construcción</li>
-            <li>Coordinación y gestión de equipos de trabajo</li>
-            <li>Control de calidad y cumplimiento de normativas</li>
-            <li>Optimización de recursos y tiempos</li>
-            <li>Medición y seguimiento del avance de obra</li>
-            <li>Resolución de imprevistos y desafíos técnicos</li>
-            <li>Garantizar la seguridad y bienestar del personal</li>
-            <li>Reportes periódicos al cliente o inversor</li>
+        <ul className="px-1 space-y-2 text-lg">
+        <li>Supervisión rigurosa en cada etapa.</li>
+<li>Gestión eficiente de equipos profesionales.</li>
+<li>Cumplimiento estricto de normativas y calidad.</li>
+<li>Desarrollo ágil y dentro del presupuesto.</li>
+<li>Reportes detallados del progreso.</li>
+<li>Solución rápida a desafíos técnicos.</li>
+<li>Prioridad en la seguridad del personal.</li>
+
+
         </ul>
     </CardBody>
 </Card>
