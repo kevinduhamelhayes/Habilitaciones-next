@@ -3,11 +3,10 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nex
 import {AcmeLogo} from "./AcmeLogo.jsx";
 import {SearchIcon} from "./SearchIcon.jsx";
 
-
 const Component = () => {
 
   return (
-    <Navbar className="bg-cyan-700 min-h-[100px] text-white" position="static">
+    <Navbar className="bg-blue-800 min-h-[100px] text-white" position="static">
       <NavbarBrand>
         <AcmeLogo />
         <p className="font-bold text-xl text-inherit">Habilitaciones Rosario</p>
@@ -19,7 +18,7 @@ const Component = () => {
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link href="#" aria-current="page" color="warning">
+          <Link href="#" aria-current="page" color="blue-400">
             Preguntas Frecuentes
           </Link>
         </NavbarItem>
@@ -33,7 +32,7 @@ const Component = () => {
         
         <NavbarItem>
         <a href="https://api.whatsapp.com/send/?phone=%2B543415883040&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
-          <Button as="a" color="success" className="text-white bg-green-700" href="#" variant="solid">
+          <Button as="a" color="success" className="text-white bg-blue-600" href="#" variant="solid">
             Wats App
           </Button>
           </a>
@@ -42,4 +41,5 @@ const Component = () => {
     </Navbar>
   );
 }
-export default Component
+
+export default Component;
