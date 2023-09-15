@@ -3,8 +3,8 @@ import { Card, CardHeader, CardBody, CardFooter, Divider, Link, Image, Button } 
 
 function CardDireccion() {
     return (
-<Card className="max-w-[500px] h-[400px] md:max-w-[370px] md:h-[470px] bg-red-700 mt-4 text-white shadow-lg transform transition-transform duration-300 ease-in-out hover:scale-105">
-    <CardHeader className="relative flex-col gap-3 bg-red-800">
+<Card className="max-w-[500px] shadow-xl shadow-slate-700 h-[400px] md:max-w-[370px] md:h-[470px] bg-red-800 mt-4 text-white shadow-lg transform transition-transform duration-300 ease-in-out hover:scale-105">
+    <CardHeader className="relative flex-col gap-3 bg-red-950">
         <div className="flex flex-col self-start">
             <p className="text-2xl font-bold">Dirección de Obra</p>
             <p className="text-sm ">Gestión y supervisión de proyectos constructivos</p>

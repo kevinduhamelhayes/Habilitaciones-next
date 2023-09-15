@@ -6,7 +6,7 @@ import {SearchIcon} from "./SearchIcon.jsx";
 const Component = () => {
 
   return (
-    <Navbar className="bg-blue-800 min-h-[110px] text-white" position="static">
+    <Navbar className="bg-slate-900 min-h-[110px] text-white" position="static">
       <NavbarBrand>
         <AcmeLogo />
         <p className="font-bold text-2xl text-inherit">Habilitaciones Rosario</p>
@@ -31,12 +31,11 @@ const Component = () => {
       <NavbarContent justify="end">
         
         <NavbarItem>
-        <a href="https://api.whatsapp.com/send/?phone=%2B543415883040&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
-          <Button as="a" color="success" className="text-xl text-white  px-8 py-6 mx-8" href="#" variant="solid">
+       
+          <Button as="a" color="success" className="text-xl text-white  px-8 py-6 mx-8" href="https://api.whatsapp.com/send/?phone=%2B543415883040" variant="solid">
             Wats App
           </Button>
-          </a>
-        </NavbarItem>
+   </NavbarItem>
       </NavbarContent>
     </Navbar>
   );
