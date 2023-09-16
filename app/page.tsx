@@ -8,6 +8,7 @@ import Hero from '@/components/Hero';
 import Body from '@/components/Body';
 import Cards from '@/components/Cards';
 import Section from '@/components/Section';
+import Swipper from '@/components/Swipper';
 
 
 
@@ -20,6 +21,7 @@ export default function Home() {
         <Cards />
 
         <Body />
+        <Swipper/>
         <Section />
         <Footer />
       </main>

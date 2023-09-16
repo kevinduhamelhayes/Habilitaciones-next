@@ -29,9 +29,7 @@ const Component = () => {
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
-        
         <NavbarItem>
-       
           <Button as="a" color="success" className="text-xl text-white  px-8 py-6 mx-8" href="https://api.whatsapp.com/send/?phone=%2B543415883040" variant="solid">
             Wats App
           </Button>
