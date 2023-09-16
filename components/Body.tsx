@@ -1,5 +1,5 @@
 import React from "react";
-import { Accordion, AccordionItem, Card, CardBody, Image } from "@nextui-org/react";
+import { Accordion, AccordionItem } from "@nextui-org/react";
 import FAQs from './constants/FaqConstants'
 
 const Body = () => {
