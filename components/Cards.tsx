@@ -6,9 +6,9 @@ import CardDireccion from './CardDireccion'
 import CardHabilitaciones from './CardHabilitaciones'
 import CardPlanos from './CardPlanos'
 
-            const Cards = () => {
+            const Cards  = () => {
               return (
-                <div className='flex flex-wrap justify-center items-center gap-8 mt-8 mb-8  '>
+                <div id="servicios" className='flex flex-wrap justify-center items-center gap-8 mt-8 mb-8  '>
                 <CardHabilitaciones/>
                 <CardPlanos/>
                 <CardTecnicos/>

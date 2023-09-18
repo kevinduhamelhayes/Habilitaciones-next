@@ -13,7 +13,7 @@ const Component = () => {
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-6 ml-12" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#" className="text-lg text-white">
+          <Link color="foreground" href="#servicios" className="text-xl font-semibold text-white">
             Servicios
           </Link>
         </NavbarItem>

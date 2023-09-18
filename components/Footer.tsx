@@ -1,68 +1,77 @@
-import React from "react";
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Input, DropdownItem, DropdownTrigger, Dropdown, DropdownMenu, Avatar} from "@nextui-org/react";
-import {AcmeLogo} from "./AcmeLogo.jsx";
-import {SearchIcon} from "./SearchIcon.jsx";
+import Link from "next/link"
+import {
+  FaLinkedin,
+  FaEnvelope,
+  FaPhoneAlt,
+  FaGithub,
+  FaWhatsapp,
 
-const Footer = () => {
-    return (
-      <Navbar className="bg-slate-900 min-h-[110px] text-white" isBordered position="static">
-        <NavbarContent justify="start">
-          <NavbarBrand className="mr-4">
-            <AcmeLogo />
-            <p className="hidden sm:block font-bold text-2xl text-inherit">Habilitaciones Rosario</p>
-          </NavbarBrand>
-          <NavbarContent className="hidden sm:flex gap-6 ml-12">
-            <NavbarItem>
-              <Link color="foreground" href="#" className="text-lg text-white">
-                Servicios
-              </Link>
-            </NavbarItem>
-            <NavbarItem isActive>
-              <Link href="#" aria-current="page" color="blue-400" className="text-lg text-white">
-                Preguntas Frecuentes
-              </Link>
-            </NavbarItem>
-            <NavbarItem>
-              <Link color="foreground" href="#" className="text-lg text-white">
-                Regularizaciones
-              </Link>
-            </NavbarItem>
-          </NavbarContent>
-        </NavbarContent>
-  
-        <NavbarContent as="div" className="items-center" justify="end">
-       
-          <Dropdown placement="bottom-end">
-            <DropdownTrigger>
-              <Avatar
-                isBordered
-                as="button"
-                className="transition-transform"
-                color="secondary"
-                name="Jason Hughes"
-                size="sm"
-                src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
-              />
-            </DropdownTrigger>
-            <DropdownMenu aria-label="Profile Actions" variant="flat">
-              <DropdownItem key="profile" className="h-14 gap-2">
-                <p className="font-semibold">Signed in as</p>
-                <p className="font-semibold">zoey@example.com</p>
-              </DropdownItem>
-              <DropdownItem key="settings">My Settings</DropdownItem>
-              <DropdownItem key="team_settings">Team Settings</DropdownItem>
-              <DropdownItem key="analytics">Analytics</DropdownItem>
-              <DropdownItem key="system">System</DropdownItem>
-              <DropdownItem key="configurations">Configurations</DropdownItem>
-              <DropdownItem key="help_and_feedback">Help & Feedback</DropdownItem>
-              <DropdownItem key="logout" color="danger">
-                Log Out
-              </DropdownItem>
-            </DropdownMenu>
-          </Dropdown>
-        </NavbarContent>
-      </Navbar>
-    );
+  FaRocket,
+  FaPinterest,
+  FaTwitch,
+  FaYoutube,
+} from "react-icons/fa"
+import {IoHammer} from "react-icons/io5"
+import {AcmeLogo} from "./AcmeLogo.jsx";
+
+const Footer1 = () => {
+  return (
+    <footer className="flex flex-col min-h-[250px] w-full md:flex-col items-center space-y-10 bg-slate-950 px-20 py-10 font-medium text-white">
+      <div className="flex w-full flex-col md:flex-row md:justify-between space-y-5 md:space-y-0">
+        <figure className="flex flex-col items-center ">
+          <AcmeLogo width={200} height={200} />
+
+        </figure>
+        <div>
+          <h2 className="flex items-center space-x-2 text-2xl">
+            <span>Devink desde la web para el mundo</span>
+            <IoHammer className="text-cyan" />
+          </h2>
+          <div className="mt-4 flex flex-row justify-around">
+            <span className="flex items-center space-x-4">
+              <FaPhoneAlt />
+              <span>+5493415366234</span>
+            </span>
+            <span className="flex items-center space-x-4">
+              <FaEnvelope />
+              <a
+              className="hover:text-blue-400 transition-colors duration-200 font-semibold text-lg"
+              href="mailto:team@devink.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              team@devink.dev
+            </a>
+            </span>
+          </div>
+          <div className="mt-8 flex flex-row justify-evenly  gap-5">
+            <span className="mb-2 block">Social Media</span>
+
+            <FaLinkedin className="cursor-pointer hover:text-blue-400" />
+            <FaGithub className="cursor-pointer hover:text-purple-500" />
+            <FaWhatsapp className="cursor-pointer hover:text-green-400" />
+            <FaPinterest className="cursor-pointer hover:text-red-400" />
+            <FaTwitch className="cursor-pointer hover:text-purple-600" />
+            <FaYoutube className="cursor-pointer hover:text-red-600" />
+          </div>
+        </div>
+      </div>
+      <div className="my-4 w-full border-t border-slate-500" />
+      <div className="flex flex-col mt-4 w-full md:flex-row items-center justify-between">
+        <ul className="flex flex-row gap-8">
+          <li className="cursor-pointer hover:underline">Servicios</li>
+          <li className="cursor-pointer hover:underline">Preguntas Frecuentes</li>
+          <li className="cursor-pointer hover:underline">Obras</li>
+          <li className="cursor-pointer hover:underline">Presupuestos</li>
+          
+        </ul>
+        <span className="mt-8 md:mt-0">
+          &copy; {new Date().getFullYear()} This website is made with <Link href="https://www.devink.dev/">Devink</Link>
+
+        </span>
+      </div>
+    </footer>
+  )
 }
 
-export default Footer;
+export default Footer1
