@@ -16,14 +16,7 @@ import { Swiper, SwiperSlide } from "swiper/react"
 const Swipper = () => {
   return (
     <>
-    <div className="flex flex-col items-center justify-center bg-slate-800 w-full pt-20 pb-10">
-      <h1 className="text-5xl font-semibold text-center text text-white">Nuestras Obras</h1>
-      <h3 className="text-xl font-semibold text-white pt-4">desliza </h3>
-      <div className="flex gap-4 pt-4">
-      <FaArrowRight className="text-white text-xl"/><FaArrowRight className="text-white text-xl"/><FaArrowRight className="text-white text-xl"/>
-      </div>
-    </div>
-    <section className=" w-full px-16 h-[700px] overflow-hidden flex items-center overflow-y-hidden bg-slate-800">
+    <section className=" w-full px-20 h-[400px] md:h-[600px] overflow-hidden flex items-center overflow-y-hidden ">
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
         
@@ -34,25 +27,26 @@ const Swipper = () => {
             spaceBetween: 10,
           },
           768: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 10,
           },
           1024: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 10,
           },
           1280: {
-            slidesPerView: 4,
+            slidesPerView: 2,
             spaceBetween: 10,
           },
         }}
-        className="h-[550px] w-full "
+        className="h-[400px] md:h-[500px] w-full "
         navigation
         pagination={{ clickable: true}}
         autoplay={{
-          delay: 6000,
+          delay: 2500,
           disableOnInteraction: false,
         }}
+
 
         scrollbar={{ draggable: true }}
         onSwiper={(swiper) => console.log(swiper)}
@@ -61,7 +55,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/electricidad/electricidad4.jpg"
+              src="/GRANDESOBRAS/grandesobras1.jpg"
               alt="obra1"
               width={1400}
               height={350}
@@ -72,7 +66,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/electricidad/electricidad9.jpg"
+              src="/GRANDESOBRAS/grandesobras2.jpg"
               alt="obra1"
               width={1400}
               height={350}
@@ -83,7 +77,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/electricidad/electricidad10.jpg"
+              src="/GRANDESOBRAS/grandesobras6.jpg"
               alt="obra1"
               width={1400}
               height={350}
@@ -94,7 +88,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/lavag/lava3.jpg"
+              src="/GRANDESOBRAS/grandesobras7.jpg"
               alt="obra1"
               width={1400}
               height={350}
@@ -105,7 +99,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/lavag/locales3.jpg"
+              src="/localr/locales1.jpg"
               alt="obra1"
               width={1400}
               height={350}
@@ -116,7 +110,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/locale/locale1.jpg"
+              src="/localr/locales4.jpg"
               alt="obra1"
               width={1400}
               height={350}
@@ -127,7 +121,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/locale/locale2.jpg"
+              src="/localr/locales5.jpg"
               alt="obra1"
               width={1400}
               height={350}
@@ -138,7 +132,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/locale/locale3.jpeg"
+              src="/obrasvarias/obras8.jpg"
               alt="obra1"
               width={1400}
               height={350}
@@ -149,7 +143,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/banoros/bano8.jpg"
+              src="/obrasvarias/obras9.jpg"
               alt="obra1"
               width={1400}
               height={350}
@@ -160,7 +154,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/banoros/bano2.jpg"
+              src="/pileta/pileta1.jpeg"
               alt="obra1"
               width={1400}
               height={800}
@@ -171,7 +165,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/banoros/bano6.jpeg"
+              src="/pileta/patio3.jpg"
               alt="obra1"
               width={1400}
               height={800}
@@ -182,7 +176,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/banoros/bano13.jpg"
+              src="/pileta/patio2.jpg"
               alt="obra1"
               width={1400}
               height={800}
@@ -193,7 +187,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/banoros/banom.jpg"
+              src="/pileta/pileta7.jpg"
               alt="obra1"
               width={1400}
               height={800}
@@ -204,7 +198,18 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/banoros/bano1.jpeg"
+              src="/pileta/pileta1.jpg"
+              alt="obra1"
+              width={1400}
+              height={800}
+              className="block w-full h-[500px] object-cover"
+            />
+         </figure>
+        </SwiperSlide>
+        <SwiperSlide>
+        <figure className="w-full h-[500px]">
+            <Image
+              src="/plomeria/plomeria4.jpeg"
               alt="obra1"
               width={1400}
               height={800}
@@ -215,7 +220,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/banoros/bano3.jpeg"
+              src="/plomeria/plomeria2.jpg"
               alt="obra1"
               width={1400}
               height={800}
@@ -226,7 +231,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/cocinaL/cocina8.jpg"
+              src="/salta/salta1.jpg"
               alt="obra1"
               width={1400}
               height={800}
@@ -237,7 +242,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/cocinaL/durlock5.jpg"
+              src="/salta/salta5.jpg"
               alt="obra1"
               width={1400}
               height={800}
@@ -249,7 +254,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/cocinaL/cocinat.jpg"
+              src="/salta/salta7.jpg"
               alt="obra1"
               width={1400}
               height={800}
@@ -260,7 +265,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/cocinaR/cocina11.jpg"
+              src="/salta/salta8.jpg"
               alt="obra1"
               width={1400}
               height={800}
@@ -271,7 +276,7 @@ const Swipper = () => {
          <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/cocinaR/cocinam.jpg"
+              src="/salta/salta9.jpg"
               alt="obra1"
               width={1400}
               height={800}
@@ -282,7 +287,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/cocinaR/cocina12.jpg"
+              src="/varios/tt1.jpg"
               alt="obra1"
               width={1400}
               height={800}
@@ -293,7 +298,7 @@ const Swipper = () => {
          <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/cocinaR/cocina14.jpg"
+              src="/seguridad/seguridad3.jpg"
               alt="obra1"
               width={1400}
               height={800}
@@ -304,7 +309,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/DURLOCK/bano8.jpg"
+              src="/seguridad/seguridad6.jpg"
               alt="obra1"
               width={1400}
               height={800}
@@ -315,7 +320,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/DURLOCK/bano11.jpg"
+              src="/seguridad/herreria4.jpg"
               alt="obra1"
               width={1400}
               height={800}
@@ -326,7 +331,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/DURLOCK/durlock13.jpg"
+              src="/seguridad/herreria1.jpg"
               alt="obra1"
               width={1400}
               height={800}
@@ -337,7 +342,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/DURLOCK/durlock14.jpg"
+              src="/seguridad/seguridad1.jpg"
               alt="obra1"
               width={1400}
               height={800}

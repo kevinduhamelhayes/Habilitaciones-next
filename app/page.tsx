@@ -16,7 +16,7 @@ import Swipper from '@/components/Swipper';
 export default function Home() {
   return (
     <NextUIProvider>
-      <main className="max-w-full relative flex flex-col items-center h-full bg-slate-200 ">
+      <main className="max-w-full relative flex flex-col items-center h-full bg-gray-950 ">
         <Navbar />
         <Hero />
         <Cards />
@@ -25,7 +25,7 @@ export default function Home() {
         <Swipper/>
         
         <Section />
-        <Swipper2/>
+
         <Footer />
       </main>
     </NextUIProvider>

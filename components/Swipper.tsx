@@ -16,14 +16,14 @@ import { Swiper, SwiperSlide } from "swiper/react"
 const Swipper = () => {
   return (
     <>
-    <div className="flex flex-col items-center justify-center bg-slate-800 w-full pt-20 pb-10">
+    <div className="flex flex-col items-center justify-center bg-gray-950 w-full pt-20 pb-10">
       <h1 className="text-5xl font-semibold text-center text text-white">Nuestras Obras</h1>
       <h3 className="text-xl font-semibold text-white pt-4">desliza </h3>
       <div className="flex gap-4 pt-4">
       <FaArrowRight className="text-white text-xl"/><FaArrowRight className="text-white text-xl"/><FaArrowRight className="text-white text-xl"/>
       </div>
     </div>
-    <section className=" w-full px-16 h-[700px] overflow-hidden flex items-center overflow-y-hidden bg-slate-800">
+    <section className=" w-full px-16 h-[700px] overflow-hidden flex items-center overflow-y-hidden ">
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
         
@@ -50,7 +50,7 @@ const Swipper = () => {
         navigation
         pagination={{ clickable: true}}
         autoplay={{
-          delay: 6000,
+          delay: 2500,
           disableOnInteraction: false,
         }}
 
@@ -58,10 +58,23 @@ const Swipper = () => {
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >
+
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/electricidad/electricidad4.jpg"
+              src="/lavag/ft1.jpg"
+              alt="obra1"
+              width={1400}
+              height={350}
+              className="block w-full h-[500px] object-cover"
+            />
+          </figure>
+        </SwiperSlide>
+
+        <SwiperSlide>
+        <figure className="w-full h-[500px]">
+            <Image
+              src="/lavag/ft3.jpg"
               alt="obra1"
               width={1400}
               height={350}
@@ -72,29 +85,7 @@ const Swipper = () => {
         <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
-              src="/electricidad/electricidad9.jpg"
-              alt="obra1"
-              width={1400}
-              height={350}
-              className="block w-full h-[500px] object-cover"
-            />
-          </figure>
-        </SwiperSlide>
-        <SwiperSlide>
-        <figure className="w-full h-[500px]">
-            <Image
-              src="/electricidad/electricidad10.jpg"
-              alt="obra1"
-              width={1400}
-              height={350}
-              className="block w-full h-[500px] object-cover"
-            />
-          </figure>
-        </SwiperSlide>
-        <SwiperSlide>
-        <figure className="w-full h-[500px]">
-            <Image
-              src="/lavag/lava3.jpg"
+              src="/lavag/ft2.jpg"
               alt="obra1"
               width={1400}
               height={350}
@@ -139,6 +130,39 @@ const Swipper = () => {
         <figure className="w-full h-[500px]">
             <Image
               src="/locale/locale3.jpeg"
+              alt="obra1"
+              width={1400}
+              height={350}
+              className="block w-full h-[500px] object-cover"
+            />
+          </figure>
+        </SwiperSlide>
+        <SwiperSlide>
+        <figure className="w-full h-[500px]">
+            <Image
+              src="/electricidad/electricidad4.jpg"
+              alt="obra1"
+              width={1400}
+              height={350}
+              className="block w-full h-[500px] object-cover"
+            />
+          </figure>
+        </SwiperSlide>
+        <SwiperSlide>
+        <figure className="w-full h-[500px]">
+            <Image
+              src="/electricidad/electricidad9.jpg"
+              alt="obra1"
+              width={1400}
+              height={350}
+              className="block w-full h-[500px] object-cover"
+            />
+          </figure>
+        </SwiperSlide>
+        <SwiperSlide>
+        <figure className="w-full h-[500px]">
+            <Image
+              src="/electricidad/electricidad10.jpg"
               alt="obra1"
               width={1400}
               height={350}
