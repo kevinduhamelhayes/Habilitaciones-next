@@ -27,7 +27,7 @@ const Footer1 = () => {
             <span>Abilitaciones Rosario SRL</span>
             <IoHammer className="text-cyan" />
           </h2>
-          <div className="mt-4 flex flex-col justify-around">
+          <div className="mt-8 flex flex-col gap-8 justify-around">
             <span className="flex items-center space-x-4">
               <FaPhoneAlt />
               <span>+5493415366234</span>

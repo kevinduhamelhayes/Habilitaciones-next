@@ -11,7 +11,7 @@ const Component = () => {
         <AcmeLogo />
         <p className="font-bold text-2xl text-inherit">Habilitaciones Rosario</p>
       </NavbarBrand>
-      <NavbarContent className="flex gap-6 ml-12 " justify="center">
+      <NavbarContent className=" gap-6 ml-12 md:flex hidden " justify="center"> {/* md:hidden esconde el contenido en pantallas medianas y más pequeñas */}
         <NavbarItem>
           <Link color="foreground" href="#servicios" className="text-xl font-semibold text-white">
             Servicios
@@ -30,7 +30,7 @@ const Component = () => {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button as="a" color="success" className="text-xl text-white font-semibold  px-8 py-6 mx-8  " href="https://api.whatsapp.com/send/?phone=%2B543415883040" variant="shadow">
+          <Button as="a" color="success" className="text-xl text-white font-semibold px-8 py-6 mx-8" href="https://api.whatsapp.com/send/?phone=%2B543415883040" variant="shadow">
             Wats App
           </Button>
    </NavbarItem>
@@ -38,5 +38,5 @@ const Component = () => {
     </Navbar>
   );
 }
-
 export default Component;
+
