@@ -9,7 +9,8 @@ interface ModalQuestionProps {
 
 const ModalQuestion: React.FC<ModalQuestionProps> = ({ question, answer }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const [backdrop, setBackdrop] = React.useState('opaque')
+  const [backdrop, setBackdrop] = React.useState<'opaque' | 'transparent'>('opaque')
+
 
   const handleOpen = () => {
     setBackdrop('transparent');
