@@ -14,10 +14,10 @@ const ModalQuestion = ({ question, answer }) => {
   return (
     <>
       <Button
-        variant="ghost"
+        variant="solid"
         color="primary"
         onPress={handleOpen}
-        className="capitalize"
+        className="capitalize whitespace-normal rounded-md text-center block w-full h-auto text-lg font-semibold"
       >
         {question}
       </Button>

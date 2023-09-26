@@ -52,18 +52,19 @@ const Body3 = () => {
     
   ]
   return (
-    <Card
-      className="flex flex-col w-[85%] shadow-xl border-white border-3 bg-slate-950 mt-4 text-white "
+    <div
+      className="flex flex-col max-w-[85%] rounded-2xl p-10 shadow-xl border-white border-3 bg-slate-950 mt-4 text-white scrollbar-hide "
     >
-      <CardBody className='flex flex-col items-center justify-center'>
+      <div className='flex flex-col w-full items-center justify-center'>
         <h3 className="text-3xl font-bold">Preguntas Frecuentes</h3>
-        <div className='flex flex-wrap gap-4 mt-10'>
+        <div className='flex flex-wrap gap-4 mt-10 items-center'>
         {questions.map((q, index) => (
         <ModalQuestion key={index} question={q.question} answer={q.answer} />
         ))}
         </div>
-      </CardBody>
-    </Card>
+      </div>
+    </div>
+
 
   )
 }
