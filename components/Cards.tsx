@@ -23,7 +23,7 @@ import CardPlanos from './CardPlanos'
 const Cards = () => {
   return (
     <>
-                <section className="flex flex-row w-full px-16 my-10 h-[500px] md:h-[700px] overflow-hidden  items-center overflow-y-hidden ">
+                <section className="flex flex-row w-full  px-0 md:px-16 my-10 h-[500px] md:h-[700px] overflow-hidden  items-center overflow-y-hidden ">
                 <Swiper
                   modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                   breakpoints={{

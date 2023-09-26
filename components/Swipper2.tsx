@@ -43,7 +43,7 @@ const Swipper = () => {
         navigation
         pagination={{ clickable: true}}
         autoplay={{
-          delay: 2500,
+          delay: 7500,
           disableOnInteraction: false,
         }}
 
