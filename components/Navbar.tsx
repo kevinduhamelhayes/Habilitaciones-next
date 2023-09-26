@@ -6,7 +6,7 @@ import {SearchIcon} from "./SearchIcon.jsx";
 const Component = () => {
 
   return (
-    <Navbar className="bg-black rounded-b-xl min-h-[110px] text-white" position="static">
+    <Navbar className="bg-black rounded-b-xl min-h-[90px] text-white" position="sticky">
       <NavbarBrand>
         <AcmeLogo />
         <p className="font-bold text-2xl text-inherit">Habilitaciones Rosario</p>

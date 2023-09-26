@@ -30,7 +30,8 @@ const Footer1 = () => {
           <div className="mt-8 flex flex-col gap-8 justify-around">
             <span className="flex items-center space-x-4">
               <FaPhoneAlt />
-              <span>+5493415366234</span>
+              <span>+5493415366234</span>yarn dev
+              
             </span>
             <span className="flex items-center space-x-4">
               <FaEnvelope />

@@ -7,7 +7,7 @@ const Section = () => {
             
             <div className="flex flex-col md:flex-row gap-8 max-w-4xl">
                 <div className="flex flex-col items-center md:items-start">
-                    <h3 className="text-2xl md:text-3xl font-semibold mb-5">Dirección</h3>
+                    <h3 className="text-2xl md:text-3xl font-semibold mb-5">Presupuestos</h3>
                     <p className="text-lg md:text-xl">Calle Ejemplo 123</p>
                     <p className="text-lg md:text-xl">Rosario, Santa Fe</p>
                     <p className="text-lg md:text-xl">Argentina, CP 2000</p>
