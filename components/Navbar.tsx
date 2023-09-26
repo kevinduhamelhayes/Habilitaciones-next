@@ -9,7 +9,9 @@ const Component = () => {
     <Navbar className="bg-black rounded-b-xl min-h-[90px] text-white" position="sticky">
       <NavbarBrand>
         <AcmeLogo />
-        <p className="font-bold hidden md:flex text-2xl text-inherit">Habilitaciones Rosario</p>
+        <div className="hidden md:flex">
+        <p className="font-bold text-2xl">Habilitaciones Rosario</p>
+        </div>
       </NavbarBrand>
       <NavbarContent className=" gap-6 ml-12 md:flex hidden " justify="center"> {/* md:hidden esconde el contenido en pantallas medianas y más pequeñas */}
         <NavbarItem>
