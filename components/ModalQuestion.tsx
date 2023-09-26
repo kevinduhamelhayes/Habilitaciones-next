@@ -2,7 +2,12 @@ import React from "react";
 
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@nextui-org/react";
 
-const ModalQuestion = ({ question, answer }) => {
+interface ModalQuestionProps {
+  question: string;
+  answer: string;
+}
+
+const ModalQuestion: React.FC<ModalQuestionProps> = ({ question, answer }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [backdrop, setBackdrop] = React.useState('opaque')
 
