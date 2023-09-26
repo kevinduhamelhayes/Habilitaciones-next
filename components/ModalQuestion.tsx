@@ -1,0 +1,47 @@
+import React from "react";
+
+import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@nextui-org/react";
+
+const ModalQuestion = ({ question, answer }) => {
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const [backdrop, setBackdrop] = React.useState('opaque')
+
+  const handleOpen = () => {
+    setBackdrop('transparent');
+    onOpen();
+  }
+
+  return (
+    <>
+      <Button
+        variant="ghost"
+        color="primary"
+        onPress={handleOpen}
+        className="capitalize"
+      >
+        {question}
+      </Button>
+      <Modal backdrop={backdrop} isOpen={isOpen} onClose={onClose}>
+        <ModalContent>
+          {(onClose) => (
+            <>
+              <ModalHeader className="flex flex-col gap-1">{question}</ModalHeader>
+              <ModalBody>
+                <p>{answer}</p>
+              </ModalBody>
+              <ModalFooter>
+                <Button color="danger" variant="light" onPress={onClose}>
+                  Close
+                </Button>
+                <Button as="a" color="success" className="" href="https://api.whatsapp.com/send/?phone=%2B543415883040" variant="light">
+            Wats App
+          </Button>
+              </ModalFooter>
+            </>
+          )}
+        </ModalContent>
+      </Modal>
+    </>
+  );
+}
+export default ModalQuestion;
