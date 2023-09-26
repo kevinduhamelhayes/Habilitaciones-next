@@ -3,7 +3,7 @@ import { Card, CardHeader, CardBody, CardFooter, Divider, Link, Image, Button } 
 
 function CardDireccion() {
     return (
-<Card className="max-w-[500px] shadow-xl shadow-slate-700 h-[400px] md:max-w-[370px] md:h-[470px] bg-red-800 mt-4 text-white transform transition-transform duration-300 ease-in-out hover:scale-105">
+<Card className="max-w-[500px] w-[500] shadow-xl shadow-slate-700 h-[460px] md:max-w-[370px] md:h-[470px] bg-red-800 mt-4 text-white transform transition-transform duration-300 ease-in-out md:hover:scale-105">
     <CardHeader className="relative flex-col gap-3 bg-red-950">
         <div className="flex flex-col self-start">
             <p className="text-2xl font-bold">Dirección de Obra</p>
@@ -13,7 +13,7 @@ function CardDireccion() {
 
     <Divider className="bg-white" />
 
-    <CardBody className=" scrollbar-hide">
+    <CardBody className=" scrollbar-hide min-h-[300px]">
         <ul className="px-1 space-y-2 text-lg">
         <li>Supervisión rigurosa en cada etapa.</li>
 <li>Gestión eficiente de equipos profesionales.</li>

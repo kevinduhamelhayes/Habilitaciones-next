@@ -16,7 +16,7 @@ import { Swiper, SwiperSlide } from "swiper/react"
 const Swipper = () => {
   return (
     <>
-    <section className=" w-full px-20 h-[400px] md:h-[600px] overflow-hidden flex items-center overflow-y-hidden ">
+    <section className=" w-full px-0 pt-0 mt-0 h-[400px] md:h-[500px] overflow-hidden flex items-center overflow-y-hidden ">
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
         

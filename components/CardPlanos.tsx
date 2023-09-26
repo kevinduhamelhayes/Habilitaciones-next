@@ -3,7 +3,7 @@ import { Card, CardHeader, CardBody, CardFooter, Divider, Link, Button } from "@
 
 function CardPlanos() {
     return (
-        <Card className="max-w-[500px] h-[350px] shadow-xl shadow-slate-700 md:max-w-[370px] md:h-[470px] bg-green-700 mt-4 text-white  transform transition-transform duration-300 ease-in-out hover:scale-105">
+        <Card className="max-w-[500px] w-[500] h-[460px] shadow-xl shadow-slate-700 md:max-w-[370px] md:h-[470px] bg-green-700 mt-4 text-white  transform transition-transform duration-300 ease-in-out md:hover:scale-105">
             <CardHeader className="relative flex-col gap-3 bg-green-950">
                 <div className="flex flex-col self-start">
                     <p className="text-2xl font-bold">Planos, finales de Obra</p>
@@ -13,7 +13,7 @@ function CardPlanos() {
 
             <Divider className="bg-white" />
 
-            <CardBody className="scrollbar-hide">
+            <CardBody className="scrollbar-hide min-h-[300px]">
                 <ul className="px-1 space-y-2 text-lg">
                     <li>Elaboración y revisión de planos</li>
                     <li>Planos de obra nueva y PROCREAR</li>

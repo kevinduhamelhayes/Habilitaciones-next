@@ -23,7 +23,7 @@ import CardPlanos from './CardPlanos'
 const Cards = () => {
   return (
     <>
-                <section className="flex flex-row w-full px-16 h-[700px] md:h-[700px] overflow-hidden  items-center overflow-y-hidden ">
+                <section className="flex flex-row w-full px-16 my-10 h-[500px] md:h-[700px] overflow-hidden  items-center overflow-y-hidden ">
                 <Swiper
                   modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                   breakpoints={{
@@ -44,11 +44,11 @@ const Cards = () => {
                       spaceBetween: 10,
                     },
                   }}
-                  className="h-[650px] w-full "
+                  className="h-[500px] md:h-[600px] w-full mb-0 "
                   navigation
                   pagination={{ clickable: true}}
                   autoplay={{
-                    delay: 2500,
+                    delay: 7500,
                     disableOnInteraction: false,
                   }}
                   scrollbar={{ draggable: true }}
@@ -56,7 +56,7 @@ const Cards = () => {
                   onSlideChange={() => console.log("slide change")}
                 >
       <FaArrowRight className="text-white text-xl"/><FaArrowRight className="text-white text-xl"/><FaArrowRight className="text-white text-xl"/>
-        <SwiperSlide className='w-full h'>
+        <SwiperSlide className='w-full h-full'>
         <CardHabilitaciones/>
         </SwiperSlide>
         <SwiperSlide>

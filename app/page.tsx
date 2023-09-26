@@ -21,12 +21,9 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Cards />
-
         <Body3 />
         <Swipper/>
-        
         <Section />
-
         <Footer />
       </main>
     </NextUIProvider>

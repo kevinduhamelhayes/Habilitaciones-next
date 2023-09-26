@@ -4,7 +4,7 @@ import { Card, CardHeader, CardBody, CardFooter, Divider, Link, Button } from "@
 
 function CardTecnicos() {
     return (
-      <Card className="max-w-[420px] h-[400px] shadow-xl shadow-slate-700 md:max-w-[370px] md:h-[470px] bg-orange-700 mt-4 text-white  transform transition-transform duration-300 ease-in-out hover:scale-105">
+      <Card className="max-w-[550px] w-[550] h-[460px] shadow-xl shadow-slate-700 md:max-w-[370px] md:h-[470px] md:max-h-[550px] bg-orange-700 mt-4 text-white  transform transition-transform duration-300 ease-in-out md:hover:scale-105">
             <CardHeader className="relative flex-col gap-3 bg-orange-950">
                 <div className="flex flex-col self-start">
                     <p className="text-2xl font-bold">Técnicos Matriculados</p>
@@ -14,7 +14,7 @@ function CardTecnicos() {
 
             <Divider className="bg-white" />
 
-            <CardBody className=" scrollbar-hide">
+            <CardBody className=" scrollbar-hide min-h-[300px]">
                 <ul className="px-1 space-y-2 text-lg">
                     <li>Asesoramiento técnico especializado</li>
                     <li>Elaboración de informes técnicos</li>

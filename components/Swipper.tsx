@@ -23,7 +23,7 @@ const Swipper = () => {
       <FaArrowRight className="text-white text-xl"/><FaArrowRight className="text-white text-xl"/><FaArrowRight className="text-white text-xl"/>
       </div>
     </div>
-    <section className=" w-full px-16 h-[700px] overflow-hidden flex items-center overflow-y-hidden ">
+    <section className=" w-full mb-10  h-[550px] overflow-hidden flex items-center overflow-y-hidden ">
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
         
@@ -42,7 +42,7 @@ const Swipper = () => {
             spaceBetween: 10,
           },
           1280: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             spaceBetween: 10,
           },
         }}
@@ -223,7 +223,7 @@ const Swipper = () => {
               height={800}
               className="block w-full h-[500px] object-cover"
             />
-         </figure>
+          </figure>
         </SwiperSlide>
         <SwiperSlide>
         <figure className="w-full h-[500px]">
@@ -234,7 +234,7 @@ const Swipper = () => {
               height={800}
               className="block w-full h-[500px] object-cover"
             />
-         </figure >
+          </figure >
         </SwiperSlide>
         <SwiperSlide>
         <figure className="w-full h-[500px]">
@@ -245,7 +245,7 @@ const Swipper = () => {
               height={800}
               className="block w-full h-[500px] object-cover"
             />
-         </figure >
+          </figure >
         </SwiperSlide>
         <SwiperSlide>
         <figure className="w-full h-[500px]">
@@ -292,7 +292,7 @@ const Swipper = () => {
             />
           </figure>
         </SwiperSlide>
-         <SwiperSlide>
+          <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
               src="/cocinaR/cocinam.jpg"
@@ -314,7 +314,7 @@ const Swipper = () => {
             />
           </figure>
         </SwiperSlide>
-         <SwiperSlide>
+          <SwiperSlide>
         <figure className="w-full h-[500px]">
             <Image
               src="/cocinaR/cocina14.jpg"
