@@ -1,10 +1,10 @@
 import React from "react";
 import { Card, CardHeader, CardBody, CardFooter, Divider, Link, Image, Button } from "@nextui-org/react";
 
-function CardDireccion() {
+function CardDireccion({className}) {
     return (
-<Card className="max-w-[500px] w-[500] shadow-xl shadow-slate-700 h-[460px] md:max-w-[370px] md:h-[470px] bg-red-800 mt-4 text-white transform transition-transform duration-300 ease-in-out md:hover:scale-105">
-    <CardHeader className="relative flex-col gap-3 bg-red-950">
+<Card className={className} >
+    <CardHeader className="relative flex-col gap-3 bg-[#333]">
         <div className="flex flex-col self-start">
             <p className="text-2xl font-bold">Dirección de Obra</p>
             <p className="text-sm ">Gestión y supervisión de proyectos constructivos</p>

@@ -24,13 +24,12 @@ const Footer1 = () => {
         </figure>
         <div>
           <h2 className="flex items-center space-x-2 text-2xl">
-            <span>Abilitaciones Rosario SRL</span>
-            <IoHammer className="text-cyan" />
-          </h2>
+            <span>Habilitaciones Rosario SRL</span>
+            </h2>
           <div className="mt-8 flex flex-col gap-8 justify-around">
             <span className="flex items-center space-x-4">
               <FaPhoneAlt />
-              <span>+5493415366234</span>yarn dev
+              <span>+5493415366234</span>
               
             </span>
             <span className="flex items-center space-x-4">

@@ -17,7 +17,7 @@ import Body3 from '@/components/Body3';
 export default function Home() {
   return (
     <NextUIProvider>
-      <main className="max-w-full relative flex flex-col items-center h-full bg-gray-950 ">
+      <main className="w-screen overflow-hidden relative flex flex-col items-center bg-gray-950 ">
         <Navbar />
         <Hero />
         <Cards />

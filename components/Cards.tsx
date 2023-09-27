@@ -23,13 +23,12 @@ import CardPlanos from './CardPlanos'
 const Cards = () => {
   return (
     <>
-                <section className="flex flex-row w-full  px-0 md:px-16 my-10 h-[500px] md:h-[700px] overflow-hidden  items-center overflow-y-hidden ">
+                <section className="flex flex-row w-full px-0 md:px-16 my-10 h-[500px] md:h-[700px] items-center">
                 <Swiper
                   modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                   breakpoints={{
                     450: {
                       slidesPerView: 1,
-                      spaceBetween: 10,
                     },
                     768: {
                       slidesPerView: 2,
@@ -52,21 +51,19 @@ const Cards = () => {
                     disableOnInteraction: false,
                   }}
                   scrollbar={{ draggable: true }}
-                  onSwiper={(swiper) => console.log(swiper)}
                   onSlideChange={() => console.log("slide change")}
                 >
-      <FaArrowRight className="text-white text-xl"/><FaArrowRight className="text-white text-xl"/><FaArrowRight className="text-white text-xl"/>
-        <SwiperSlide className='w-full h-full'>
-        <CardHabilitaciones/>
+        <SwiperSlide className='mx-auto'>
+          <CardHabilitaciones className="max-w-[500px] mx-auto w-[500] shadow-xl shadow-slate-700 h-[460px] md:max-w-[370px] md:h-[470px] bg-[#fff] mt-4 text-white transform transition-transform duration-300 ease-in-out lg:hover:scale-105"/>
         </SwiperSlide>
         <SwiperSlide>
-        <CardPlanos/>
+          <CardPlanos className="max-w-[500px] mx-auto w-[500] shadow-xl shadow-slate-700 h-[460px] md:max-w-[370px] md:h-[470px] bg-[#111] mt-4 text-white transform transition-transform duration-300 ease-in-out lg:hover:scale-105"/>
         </SwiperSlide>
         <SwiperSlide>
-        <CardDireccion/>
+          <CardDireccion className="max-w-[500px] mx-auto w-[500] shadow-xl shadow-slate-700 h-[460px] md:max-w-[370px] md:h-[470px] bg-[#111] mt-4 text-white transform transition-transform duration-300 ease-in-out lg:hover:scale-105" />
         </SwiperSlide>
         <SwiperSlide>
-        <CardTecnicos/>
+          <CardTecnicos className="max-w-[500px] mx-auto w-[500] shadow-xl shadow-slate-700 h-[460px] md:max-w-[370px] md:h-[470px] bg-[#111] mt-4 text-white transform transition-transform duration-300 ease-in-out lg:hover:scale-105"/>
         </SwiperSlide>
       </Swiper>
     </section>

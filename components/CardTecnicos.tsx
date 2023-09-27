@@ -2,10 +2,10 @@ import React from "react";
 import { Card, CardHeader, CardBody, CardFooter, Divider, Link, Button } from "@nextui-org/react";
 
 
-function CardTecnicos() {
+function CardTecnicos({className}) {
     return (
-      <Card className="max-w-[550px] w-[550] h-[460px] shadow-xl shadow-slate-700 md:max-w-[370px] md:h-[470px] md:max-h-[550px] bg-orange-700 mt-4 text-white  transform transition-transform duration-300 ease-in-out md:hover:scale-105">
-            <CardHeader className="relative flex-col gap-3 bg-orange-950">
+      <Card className={className}>
+            <CardHeader className="relative flex-col gap-3 bg-black">
                 <div className="flex flex-col self-start">
                     <p className="text-2xl font-bold">Técnicos Matriculados</p>
                     <p className="text-sm ">Trabajos especiales</p>

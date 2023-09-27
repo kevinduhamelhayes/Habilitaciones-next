@@ -23,11 +23,11 @@ const ModalQuestion: React.FC<ModalQuestionProps> = ({ question, answer }) => {
         variant="solid"
         color="primary"
         onPress={handleOpen}
-        className="capitalize whitespace-normal rounded-md text-center block w-full h-auto text-lg font-semibold"
+        className="capitalize min-h-[80px] whitespace-normal rounded-md text-center block w-full h-auto text-lg font-semibold"
       >
         {question}
       </Button>
-      <Modal backdrop={backdrop} isOpen={isOpen} onClose={onClose}>
+      <Modal className="absolute top-[50%]" backdrop={backdrop} isOpen={isOpen} onClose={onClose}>
         <ModalContent>
           {(onClose) => (
             <>
@@ -39,9 +39,7 @@ const ModalQuestion: React.FC<ModalQuestionProps> = ({ question, answer }) => {
                 <Button color="danger" variant="light" onPress={onClose}>
                   Close
                 </Button>
-                <Button as="a" color="success" className="" href="https://api.whatsapp.com/send/?phone=%2B543415883040" variant="light">
-            Wats App
-          </Button>
+
               </ModalFooter>
             </>
           )}

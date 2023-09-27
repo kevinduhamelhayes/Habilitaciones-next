@@ -57,9 +57,9 @@ const Body3 = () => {
     >
       <div className='flex flex-col w-full items-center justify-center'>
         <h3 className="text-3xl font-bold">Preguntas Frecuentes</h3>
-        <div className='flex flex-wrap gap-4 mt-10 items-center'>
+        <div className='flex flex-wrap gap-4 mt-10 items-center  '>
         {questions.map((q, index) => (
-        <ModalQuestion key={index} question={q.question} answer={q.answer} />
+          <ModalQuestion key={index} question={q.question} answer={q.answer} />
         ))}
         </div>
       </div>
