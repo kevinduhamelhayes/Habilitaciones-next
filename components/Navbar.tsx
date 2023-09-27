@@ -10,7 +10,7 @@ const Navbar = () => {
           <AcmeLogo/>
             <p className="font-bold hidden md:flex text-2xl">Habilitaciones Rosario</p>
         </div>
-        <div className="gap-12 ml-12 md:flex  hidden sm:hidden lg:flex xl:flex">
+        <div className="gap-12 ml-12  hidden sm:hidden justify-center items-center lg:mx-4 lg:flex xl:flex">
           <span className="text-xl font-semibold text-white cursor-pointer">
             <Link className="text-white font-semibold text-lg" href="#servicios">
               Servicios
@@ -21,7 +21,7 @@ const Navbar = () => {
               Preguntas Frecuentes
             </Link>
           </span>
-          <span className="text-lg texhiddent-white cursor-pointer">
+          <span className="text-lg text-white cursor-pointer">
             <Link href="#" className="text-white font-semibold text-lg">
               Regularizaciones
             </Link>
