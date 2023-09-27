@@ -11,17 +11,20 @@ import Section from '@/components/Section';
 import Swipper2 from '@/components/Swipper2';
 import Swipper from '@/components/Swipper';
 import Body3 from '@/components/Body3';
+import Span from '@/components/Span';
 
 
 
 export default function Home() {
   return (
     <NextUIProvider>
-      <main className="w-screen overflow-hidden relative flex flex-col items-center bg-gray-950 ">
+      <main className="w-screen overflow-hidden relative flex flex-col items-center bg-zinc-900 ">
         <Navbar />
         <Hero />
         <Cards />
-        <Body3 />
+        <Span />
+        {/*<Body3 />
+        <Body />*/}
         <Swipper/>
         <Section />
         <Footer />

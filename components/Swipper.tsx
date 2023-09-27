@@ -16,7 +16,7 @@ import { Swiper, SwiperSlide } from "swiper/react"
 const Swipper = () => {
   return (
     <>
-    <div className="flex flex-col items-center justify-center bg-gray-950 w-full pt-20 pb-10">
+    <div className="flex flex-col items-center justify-center  w-full pt-20 pb-10">
       <h1 className="text-5xl font-semibold text-center text text-white">Nuestras Obras</h1>
       <h3 className="text-xl font-semibold text-white pt-4">desliza </h3>
       <div className="flex gap-4 pt-4">

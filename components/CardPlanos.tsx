@@ -8,7 +8,7 @@ interface CardPlanosProps {
 function CardPlanos({ className }: CardPlanosProps) {
   return (
     <Card className={className}>
-      <CardHeader className="relative flex-col gap-3 bg-black">
+      <CardHeader className="relative flex-col gap-3 bg-[#333]">
         <div className="flex flex-col self-start">
           <p className="text-2xl font-bold">Planos, finales de Obra</p>
           <p className="text-sm">Regularizaciones</p>

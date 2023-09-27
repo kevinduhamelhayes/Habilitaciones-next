@@ -8,7 +8,7 @@ interface CardHabilitacionesProps {
 function CardHabilitaciones({ className }: CardHabilitacionesProps) {
   return (
     <Card className={className}>
-      <CardHeader className="flex-col gap-3 bg-black">
+      <CardHeader className="relative flex-col gap-3 bg-[#333]">
         <div className="flex flex-col self-start">
           <p className="text-2xl font-bold">Habilitaciones comerciales</p>
           <p className="text-sm text-white">Gestión online y asesoramiento</p>
@@ -17,7 +17,7 @@ function CardHabilitaciones({ className }: CardHabilitacionesProps) {
 
       <Divider className="bg-white" />
 
-      <CardBody className="scrollbar-hide min-h-[300px] text-black">
+      <CardBody className="scrollbar-hide min-h-[300px] text-white">
         <ul className="px-1 space-y-2 text-lg">
           <li>Trámites de habilitación y renovación</li>
           <li>Asesoramiento personalizado para tu negocio</li>
