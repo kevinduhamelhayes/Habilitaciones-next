@@ -16,13 +16,13 @@ import {AcmeLogo} from "./AcmeLogo.jsx";
 
 const Footer1 = () => {
   return (
-    <footer className="flex flex-col min-h-[250px] w-full md:flex-col items-center space-y-10 bg-black px-20 py-10 font-medium text-white">
-      <div className="flex w-full flex-col md:flex-row md:justify-between space-y-5 md:space-y-0">
+    <footer className="flex flex-col min-h-[250px] w-full md:flex-col items-center space-y-10 bg-black px-8 md:px-20 py-10 font-medium text-white">
+      <div className="flex w-full flex-col md:flex-row md:justify-between  md:space-y-0">
         <figure className="flex flex-col items-center ">
           <AcmeLogo width={200} height={200} />
 
         </figure>
-        <div>
+        <div className="md:px-8">
           <h2 className="flex items-center space-x-2 text-2xl">
             <span>Habilitaciones Rosario SRL</span>
             </h2>
@@ -50,7 +50,7 @@ const Footer1 = () => {
       <div className="my-4 w-full border-t border-slate-500" />
       <div className="flex flex-col mt-4 w-full md:flex-row items-center justify-between">
         <ul className="flex flex-row gap-8">
-          <li className="cursor-pointer hover:underline">Servicios</li>
+          <li className="hidden md:flex cursor-pointer hover:underline">Servicios</li>
           <li className="cursor-pointer hover:underline">Preguntas Frecuentes</li>
           <li className="cursor-pointer hover:underline">Obras</li>
           <li className="cursor-pointer hover:underline">Presupuestos</li>
