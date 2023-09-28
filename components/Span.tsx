@@ -4,7 +4,7 @@ import FAQs from './constants/FaqConstants'
 
 const Span = () => {
   return (
-      <section className="w-full flex flex-col items-center text-white py-8">
+      <section id="faq" className="w-full flex flex-col items-center text-white py-8">
           <h3 className="text-4xl mt-0 mb-12 font-bold">
               Preguntas Frecuentes
           </h3>
