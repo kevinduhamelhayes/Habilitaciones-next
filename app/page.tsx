@@ -25,9 +25,11 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Cards />
-        <NewContent />
+        <div className='ml-4 mr-4'>
         <NewContent1 />
         <NewContent2 />
+        <NewContent />
+        </div>
         <Span />
         
         {/*<Body3 /><Body />
