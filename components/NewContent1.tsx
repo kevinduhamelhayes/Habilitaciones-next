@@ -3,9 +3,9 @@ import { Card, CardHeader, CardBody, Image, CardFooter } from "@nextui-org/react
 
 const NewContent1 = () => {
     return (
-        <Card className='flex flex-col lg:flex-row w-full lg:w-[1300px] min-h-[500px] lg:h-[400px] bg-white mt-20 rounded-xl shadow-2xl shadow-slate-600 mx-auto overflow-hidden'>
-            <CardFooter className='w-full lg:w-[50%] relative'>
-                <Image src="/pileta/IMG-20220520-WA0198.jpg"  alt='pileta' className='bg-cover object-fill rounded-lg rounded-r-none' />
+        <Card id='Nosotros' className='flex flex-col lg:flex-row w-full lg:w-[1300px] min-h-[485px] lg:h-[400px] p-0 bg-white mt-20 rounded-xl shadow-2xl shadow-slate-600 mx-auto overflow-hidden'>
+            <CardFooter className='w-full lg:w-[50%] h-full relative p-0 m-0'>
+                <Image src="/pileta/IMG-20220520-WA0198.jpg"  alt='pileta' className='bg-cover object-fill rounded-lg p-0 m-0 h-full' />
             </CardFooter>
             <CardBody className='p-6 w-full lg:w-[50%]'>
                 <ul>

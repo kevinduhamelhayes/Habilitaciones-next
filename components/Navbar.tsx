@@ -22,9 +22,9 @@ const Navbar = () => {
               Preguntas Frecuentes
             </Link>
           </span>
-          <span className="text-lg text-white cursor-pointer hidden">
-            <Link to='regularizaciones' smooth={true} duration={500} className="text-white font-semibold text-lg">
-              Regularizaciones
+          <span className="text-lg text-white cursor-pointer ">
+            <Link to='Nosotros' smooth={true} duration={500} className="text-white font-semibold text-lg">
+              Mas Sobre Nosotros
             </Link>
           </span>
         </div>

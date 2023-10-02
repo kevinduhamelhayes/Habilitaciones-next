@@ -4,7 +4,7 @@ import { Button } from "@nextui-org/react";
 
 const NewContent = () => {
     return (
-        <Card className='flex flex-col-reverse lg:flex-row w-full lg:w-[1300px] min-h-[500px] lg:h-[400px] bg-white mt-20 rounded-xl shadow-2xl shadow-slate-600 mx-auto overflow-hidden'>
+        <Card className='flex flex-col-reverse lg:flex-row w-full lg:w-[1300px] min-h-[488px] lg:h-[400px] bg-white mt-20 rounded-xl shadow-2xl shadow-slate-600 mx-auto overflow-hidden'>
             <CardBody className='p-6 w-full lg:w-[50%]'>
                 <ul>
                     <li className='mb-6'>
@@ -34,7 +34,7 @@ const NewContent = () => {
                     </Button>
                 </div>
             </CardBody>
-            <CardFooter className='w-full lg:w-[50%] relative'>
+            <CardFooter className='w-full p-0 m-0 lg:w-[50%] relative'>
                 <Image src="/salta/salta7.jpg"  alt='depto1' className='bg-cover object-fill rounded-lg ' />
             </CardFooter>
         </Card>
