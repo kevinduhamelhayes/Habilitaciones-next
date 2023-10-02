@@ -12,6 +12,9 @@ import Swipper2 from '@/components/Swipper2';
 import Swipper from '@/components/Swipper';
 import Body3 from '@/components/Body3';
 import Span from '@/components/Span';
+import NewContent from '@/components/NewContent';
+import NewContent1 from '@/components/NewContent1';
+import NewContent2 from '@/components/NewContent2';
 
 
 
@@ -22,9 +25,13 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Cards />
+        <NewContent />
+        <NewContent1 />
+        <NewContent2 />
         <Span />
-        {/*<Body3 />
-        <Body />*/}
+        
+        {/*<Body3 /><Body />
+        */}
         <Swipper/>
         <Section />
         <Footer />

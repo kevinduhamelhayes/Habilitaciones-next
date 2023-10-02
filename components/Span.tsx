@@ -5,10 +5,10 @@ import FAQs from './constants/FaqConstants'
 const Span = () => {
   return (
       <section id="faq" className="w-full flex flex-col items-center text-white py-8">
-          <h3 className="text-4xl mt-0 mb-12 font-bold">
+          <h3 className="text-4xl mt-0 mb-16 mt-16 font-bold">
               Preguntas Frecuentes
           </h3>
-          <Accordion className="w-[95%] md:w-[80%] text-white bg-white " variant="bordered">
+          <Accordion className="w-[95%] max-w-[1300px] md:w-[80%] text-white bg-white " variant="bordered">
               {FAQs.map((faq) => (
                   <AccordionItem key={faq.id} aria-label={faq.title} 
                                  title={<span className="font-bold">{faq.title}</span>}  

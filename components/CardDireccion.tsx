@@ -8,8 +8,8 @@ interface CardDireccionProps {
 function CardDireccion({ className }: CardDireccionProps) {
   return (
     <Card className={className}>
-      <CardHeader className="relative flex-col gap-3 bg-[#333]">
-        <div className="flex flex-col self-start">
+      <CardHeader className="relative max-h-[23%] min-h-[23%]  flex-col gap-3 bg-[#333]">
+        <div className="flex flex-col items-start justify-center h-full">
           <p className="text-2xl font-bold">Dirección de Obra</p>
           <p className="text-sm">Gestión y supervisión de proyectos constructivos</p>
         </div>
@@ -22,7 +22,6 @@ function CardDireccion({ className }: CardDireccionProps) {
           <li>Supervisión rigurosa en cada etapa.</li>
           <li>Gestión eficiente de equipos profesionales.</li>
           <li>Cumplimiento estricto de normativas y calidad.</li>
-          <li>Desarrollo ágil y dentro del presupuesto.</li>
           <li>Reportes detallados del progreso.</li>
           <li>Solución rápida a desafíos técnicos.</li>
           <li>Prioridad en la seguridad del personal.</li>
