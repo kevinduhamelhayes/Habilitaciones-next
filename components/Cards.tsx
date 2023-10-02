@@ -60,18 +60,17 @@ const Cards = () => {
             disableOnInteraction: false,
           }}
           scrollbar={{ draggable: true }}
-          onSlideChange={() => console.log("slide change")}
         >
-          <SwiperSlide className="mx-auto">
+          <SwiperSlide className="mx-auto w-full">
             <CardHabilitaciones className="max-w-[500px] mx-auto w-[500] shadow-xl shadow-slate-700 h-[460px] md:max-w-[370px] md:h-[470px] bg-[#111] mt-4 text-white transform transition-transform duration-300 ease-in-out lg:hover:scale-105" />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="mx-auto w-full">
             <CardPlanos className="max-w-[500px] mx-auto w-[500] shadow-xl shadow-slate-700 h-[460px] md:max-w-[370px] md:h-[470px] bg-[#111] mt-4 text-white transform transition-transform duration-300 ease-in-out lg:hover:scale-105" />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="mx-auto w-full">
             <CardDireccion className="max-w-[500px] mx-auto w-[500] shadow-xl shadow-slate-700 h-[460px] md:max-w-[370px] md:h-[470px] bg-[#111] mt-4 text-white transform transition-transform duration-300 ease-in-out lg:hover:scale-105" />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="mx-auto w-full">
             <CardTecnicos className="max-w-[500px] mx-auto w-[500] shadow-xl shadow-slate-700 h-[460px] md:max-w-[370px] md:h-[470px] bg-[#111] mt-4 text-white transform transition-transform duration-300 ease-in-out lg:hover:scale-105" />
           </SwiperSlide>
         </Swiper>

@@ -35,7 +35,7 @@ const NewContent = () => {
                 </div>
             </CardBody>
             <CardFooter className='w-full lg:w-[50%] relative'>
-                <Image src="/salta/salta7.jpg"  alt='depto1' className='bg-cover object-fill rounded-lg rounded-l-none' />
+                <Image src="/salta/salta7.jpg"  alt='depto1' className='bg-cover object-fill rounded-lg ' />
             </CardFooter>
         </Card>
     )

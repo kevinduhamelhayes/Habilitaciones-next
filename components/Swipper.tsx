@@ -53,10 +53,7 @@ const Swipper = () => {
           delay: 7500,
           disableOnInteraction: false,
         }}
-
         scrollbar={{ draggable: true }}
-        onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log("slide change")}
       >
 
         <SwiperSlide>

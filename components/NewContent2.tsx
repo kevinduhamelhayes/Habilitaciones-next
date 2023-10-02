@@ -3,7 +3,7 @@ import { Card, CardHeader, CardBody, Image, CardFooter } from "@nextui-org/react
 
 const NewContent2 = () => {
     return (
-        <Card className='flex flex-col lg:flex-row w-full lg:w-[1300px] min-h-[500px] max-h-[1000px] overflow-hidden lg:h-[400px] bg-white mt-20 rounded-xl shadow-2xl shadow-slate-600 mx-auto overflow-hidden'>
+        <Card className='flex flex-col lg:flex-row w-full lg:w-[1300px] min-h-[500px] max-h-[1050px] overflow-hidden lg:h-[400px] bg-white mt-20 rounded-xl shadow-2xl shadow-slate-600 mx-auto '>
 
             <CardBody className='p-6 w-full lg:w-[50%]'>
                 <ul>
