@@ -29,7 +29,7 @@ const Footer1 = () => {
           <div className="mt-8 flex flex-col gap-8 justify-around">
             <span className="flex items-center space-x-4">
               <FaPhoneAlt />
-              <span>+5493415366234</span>
+              <span>+5493415883040</span>
               
             </span>
             <span className="flex items-center space-x-4">
@@ -57,8 +57,15 @@ const Footer1 = () => {
           
         </ul>
         <span className="mt-8 md:mt-0">
-          &copy; {new Date().getFullYear()} This website is made with <Link className="hover:text-cyan-400" href="https://www.devink.dev/">Devink</Link>
-
+          &copy; {new Date().getFullYear()} This website is made with{" "}
+          <Link
+            className="hover:text-cyan-400 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-green-500 animate-gradient-x"
+            href="https://www.devink.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            devink.dev
+          </Link>
         </span>
       </div>
     </footer>
