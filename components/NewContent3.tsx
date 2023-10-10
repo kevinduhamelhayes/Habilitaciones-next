@@ -19,7 +19,7 @@ const NewContent3 = () => {
                     </li>
                     <li className='mb-6'>
                         <h4 className='text-xl font-semibold'>La Seguridad debe ser Comoda</h4>
-                        <p className='text-lg'>Podemos poner un boton de panico en la casa de la abue, podemos ayudarte a que todo este vinculado a tu telefono, podemos armar un sistema completo para tu industria y que sevea en tu telefono de forma centralizada.</p>
+                        <p className='text-lg'>Podemos poner un boton de panico en la casa de la abue o bajo el mostrador de tu comercio, podemos ayudarte a que todo este vinculado a tu telefono, podemos armar un sistema completo para tu industria y que se vea en tu telefono de forma centralizada.</p>
                     </li>
                 </ul>
             </CardBody>

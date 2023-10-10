@@ -13,7 +13,7 @@ const Navbar = () => {
         </div>
         <div className="gap-12 ml-12 hidden sm:hidden justify-center items-center lg:mx-4 lg:flex xl:flex">
           <span className="text-xl font-semibold text-white cursor-pointer">
-            <Link to='services' smooth={true} duration={500} className="text-white font-semibold text-lg">
+            <Link to='servicios' smooth={true} duration={500} className="text-white font-semibold text-lg">
               Servicios
             </Link>
           </span>

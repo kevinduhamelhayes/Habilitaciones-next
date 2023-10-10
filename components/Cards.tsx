@@ -30,7 +30,7 @@ const Cards = () => {
   return (
     <>
       <section
-        id="services"
+        id="servicios"
         className="flex flex-row w-full px-0 md:px-16 my-10 h-[500px] md:h-[600px] md:mt-12 items-center"
       >
         <Swiper
