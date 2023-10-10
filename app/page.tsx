@@ -25,7 +25,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Cards />
-        <div className='ml-4 mr-8'>
+        <div className='w-full ml-8 mr-8'>
           <div className='w-full mt-20 md:m-20 text-4xl font-bold text-white flex justify-center items-center'>
           <h1>Mas sobre nosotros</h1>
           
