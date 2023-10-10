@@ -12,16 +12,9 @@ import {
 } from "react-icons/fa";
 import { IoHammer } from "react-icons/io5";
 import { AcmeLogo } from "./AcmeLogo.jsx";
-
+import { Link } from 'react-scroll';
 const Footer1 = () => {
   // Función para manejar el desplazamiento suave
-  const handleScrollTo = (selector) => {
-    const element = document.querySelector(selector);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
-
   return (
     <footer className="flex flex-col min-h-[250px] w-full md:flex-col items-center space-y-10 bg-black px-8 md:px-20 py-10 font-medium text-white">
       <div className="flex w-full flex-col items-center md:flex-row md:justify-between  md:space-y-0">
@@ -55,16 +48,16 @@ const Footer1 = () => {
       <div className="flex flex-col mt-4 w-full md:flex-row items-center justify-between">
         <ul className="flex flex-row gap-8">
           <li className="hidden md:flex cursor-pointer hover:underline">
-            <a onClick={() => handleScrollTo('#servicios')}>Servicios</a>
+            <Link to='servicios' smooth={true} duration={900} className='text-white'> Servicios</Link>
           </li>
           <li className="cursor-pointer hover:underline">
-            <a onClick={() => handleScrollTo('#faq')}>Preguntas Frecuentes</a>
+            <Link to='faq' smooth={true} duration={900} className='text-white'>Preguntas Frecuentes</Link>
           </li>
           <li className="cursor-pointer hover:underline">
-            <a onClick={() => handleScrollTo('#obras')}>Obras</a>
+            <Link to='obras' smooth={true} duration={900} className='text-white'>Obras</Link>
           </li>
           <li className="cursor-pointer hover:underline">
-            <a onClick={() => handleScrollTo('#presupuesto')}>Presupuestos</a>
+            <Link to='presupuesto' smooth={true} duration={900} className='text-white'>Presupuestos</Link>
           </li>
         </ul>
         <span className="mt-8 md:mt-0">
