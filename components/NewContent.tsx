@@ -9,18 +9,18 @@ const NewContent = () => {
                 <ul>
                     <li className='mb-6'>
                         <h4 className='text-xl font-semibold'>Te ayudamos a salir de los largos trámites de la municipalidad</h4>
-                        <p className='text-lg'>Nos encargamos de todo para que no tengas que preocuparte por nada.</p>
+                        <p className='text-lg'>Puesta a tierra, Planos, Planes de evacuacion, Sistemas de deteccion de incendio, Certificacion electrica, Certificacion de Instalacion de Gas</p>
                     </li>
                     <li className='mb-6'>
-                        <h4 className='text-xl font-semibold'>Te están haciendo larga la habilitación de tu industria o comercio?</h4>
-                        <p className='text-lg'>Tranquilo estamos acostumbrados, y estás en el lugar correcto.</p>
+                        <h4 className='text-xl font-semibold'>Tu contratista o arquitecto te dejo a medias?</h4>
+                        <p className='text-lg'>Tranquilo estamos acostumbrados, podemos darte una mano</p>
                     </li>
                     <li className='mb-6'>
                         <h4 className='text-xl font-semibold'>Servicios Flexibles:</h4>
-                        <p className='text-lg'>Puedes contar con nuestra asesoría más básica o pedirnos que nos encarguemos de todo tú decides SIEMPRE, contamos con técnicos propios y mayoristas a tu disposición.</p>
+                        <p className='text-lg'>Podemos enviarte desde un electricista para una urgencia, un cerrajero, hasta pactar la direccion de una obra completa, solo acercate por WhatsApp o via email y te responderemos rapidamente</p>
                     </li>
                 </ul>
-                <div className='flex w-full flex-row justify-center'>
+                <div className='flex w-full flex-row justify-center gap-8'>
                     <Button
                         as="a"
                         color="success"
@@ -32,10 +32,23 @@ const NewContent = () => {
                     >
                         WhatsApp
                     </Button>
+                    <Button
+                        as="a"
+                        color="primary"
+                        className="text-xl text-white font-semibold px-14 py-6"
+                        href="mailto:info@habilitacionesrosario.com?subject=presupuesto&
+  body=Contenido%20del%20correo."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        variant="shadow"
+                    >
+                        Email
+                    </Button>
+
                 </div>
             </CardBody>
             <CardFooter className='w-full p-0 m-0 lg:w-[50%] relative'>
-                <Image src="/salta/salta7.jpg"  alt='depto1' className='bg-cover object-fill rounded-lg ' />
+                <Image src="/salta/salta7.jpg" alt='depto1' className='bg-cover object-fill rounded-lg ' />
             </CardFooter>
         </Card>
     )

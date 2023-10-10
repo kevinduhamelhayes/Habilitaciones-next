@@ -15,7 +15,7 @@ import Span from '@/components/Span';
 import NewContent from '@/components/NewContent';
 import NewContent1 from '@/components/NewContent1';
 import NewContent2 from '@/components/NewContent2';
-
+import NewContent3 from '@/components/NewContent3';
 
 
 export default function Home() {
@@ -32,7 +32,9 @@ export default function Home() {
           </div>
         <NewContent1 />
         <NewContent2 />
+        <NewContent3 />
         <NewContent />
+        
         </div>
         <Span />
         

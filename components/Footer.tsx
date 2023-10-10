@@ -36,11 +36,11 @@ const Footer1 = () => {
               <FaEnvelope />
               <a
               className="hover:text-blue-400 transition-colors duration-200 font-semibold text-lg"
-              href="mailto:team@devink.dev"
+              href="info@habilitacionesrosario.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              contacto@habilitacionesrosario.com
+              info@habilitacionesrosario.com
             </a>
             </span>
           </div>
@@ -53,7 +53,7 @@ const Footer1 = () => {
           <li className="hidden md:flex cursor-pointer hover:underline">Servicios</li>
           <li className="cursor-pointer hover:underline">Preguntas Frecuentes</li>
           <li className="cursor-pointer hover:underline">Obras</li>
-          <li className="cursor-pointer hover:underline">Presupuestos</li>
+          <li className="cursor-pointer hover:underline" href="#presupuesto">Presupuestos</li>
           
         </ul>
         <span className="mt-8 md:mt-0">

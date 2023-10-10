@@ -9,15 +9,15 @@ const NewContent2 = () => {
                 <ul>
                     <li className='mb-6'>
                         <h4 className='text-xl font-semibold'>Planificación y Ejecución</h4>
-                        <p className='text-lg'>Podemos planificar, dirigir y terminar tu obra en tiempo récord. Somos profesionales motivados y buscamos transmitir eso a nuestro personal.</p>
+                        <p className='text-lg'>Podemos planificar, dirigir y terminar tu obra en tiempo récord. Somos profesionales motivados y buscamos transmitir eso a nuestro personal para tu tranquilidad.</p>
                     </li>
                     <li className='mb-6'>
                         <h4 className='text-xl font-semibold'>Habilitación de Industria o Comercio</h4>
-                        <p className='text-lg'>¿Te están haciendo larga la habilitación de tu industria o comercio? Tranquilo, estás en el lugar correcto.</p>
+                        <p className='text-lg'>¿Te están haciendo larga la habilitación de tu industria o comercio? Tranquilo, estás en el lugar correcto, tenemos experiencia sacando adelante tramites que parecian imposibles.</p>
                     </li>
                     <li className='mb-6'>
                         <h4 className='text-xl font-semibold'>Servicios Flexibles</h4>
-                        <p className='text-lg'>Puedes contar con nuestra asesoría más básica o pedirnos que nos encarguemos de todo, tú decides SIEMPRE.</p>
+                        <p className='text-lg'>Puedes contar con nuestra asesoría más básica o pedirnos que nos encarguemos de todo (personal, materiales, seguros, etc), tú decides SIEMPRE.</p>
                     </li>
                 </ul>
             </CardBody>
