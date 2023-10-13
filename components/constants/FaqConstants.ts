@@ -2,12 +2,12 @@ const FAQs = [
   {
     id: 1,
     title: "¿Qué servicios ofrecen en relación a los planos y finales de obra?",
-    content: "Ofrecemos un servicio integral que abarca desde la elaboración y revisión de planos arquitectónicos hasta la gestión de trámites para finales de obra. Además, brindamos asesoramiento en regularizaciones de construcciones existentes y consultoría en normativas de construcción."
+    content: "Ofrecemos un servicio integral que abarca desde la elaboración y revisión de planos hasta la gestión de trámites para finales de obra. Además, brindamos asesoramiento en regularizaciones de construcciones existentes y consultoría en normativas."
   },
   {
     id: 2,
-    title: "¿Cómo se llevan a cabo las inspecciones?",
-    content: "Nuestro equipo de técnicos matriculados realiza inspecciones técnicas en el sitio, asegurando que las construcciones cumplan con las normativas y regulaciones vigentes. Estas inspecciones pueden incluir certificaciones de obra y mediciones."
+    title: "¿Cómo trabajan normalmente?",
+    content: "Normalmente pactamos una primera visita a la obra o comercio ."
   },
   {
     id: 3,
@@ -17,17 +17,17 @@ const FAQs = [
   {
     id: 4,
     title: "¿Qué servicios ofrecen en relación a la dirección de obras?",
-    content: "Brindamos supervisión y dirección de obras, asegurando que los proyectos se ejecuten según los planos y especificaciones técnicas. Nuestro equipo se encarga de coordinar a los diferentes profesionales y contratistas, supervisar la calidad de los materiales y garantizar el cumplimiento de los plazos establecidos."
+    content: "Brindamos supervisión y dirección de obras, asegurando que los proyectos se ejecuten según los planos y especificaciones técnicas. Nuestro equipo se encarga de coordinar a los diferentes profesionales y contratistas, y garantizar el cumplimiento de los plazos establecidos."
   },
   {
     id: 5,
     title: "¿Ofrecen asesoramiento en trámites de habilitaciones?",
-    content: "Sí, ofrecemos asesoramiento completo en trámites de habilitación y renovación. Nuestro equipo tiene amplia experiencia en la gestión de permisos y licencias ante entidades municipales y estatales, facilitando el proceso y garantizando el cumplimiento de todas las regulaciones."
+    content: "Sí, ofrecemos asesoramiento completo en trámites de habilitación y renovación. Nuestro equipo tiene amplia experiencia en la gestión de permisos y licencias ante entidades municipales y nacionales, facilitando el proceso y garantizando el cumplimiento de todas las regulaciones."
   },
   {
     id: 6,
     title: "Tengo una obra y necesito nueva dirección de obra. ¿Brindan ese servicio?",
-    content: "Sí, claro. Te ayudamos a arreglar obras que quedaron mal hechas o que no tienen dirección de obra."
+    content: "Sí, claro. Te ayudamos a arreglar obras que quedaron mal hechas o que no tienen dirección."
   },
   {
     id: 7,
