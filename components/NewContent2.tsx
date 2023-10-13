@@ -9,7 +9,7 @@ const NewContent2 = () => {
                 <ul>
                     <li className='mb-6'>
                         <h4 className='text-xl font-semibold'>Planificación y Ejecución</h4>
-                        <p className='text-lg'>Podemos planificar, dirigir y terminar tu obra en tiempo récord. Somos profesionales motivados y buscamos transmitir eso a nuestro personal para tu tranquilidad.</p>
+                        <p className='text-lg'>Podemos planificar, dirigir y terminar tu obra en tiempo récord. Somos profesionales motivados y buscamos transmitir eso a nuestro personal para mejorar nuestro desempeño.</p>
                     </li>
                     <li className='mb-6'>
                         <h4 className='text-xl font-semibold'>Habilitación de Industria o Comercio</h4>
@@ -17,7 +17,7 @@ const NewContent2 = () => {
                     </li>
                     <li className='mb-6'>
                         <h4 className='text-xl font-semibold'>Servicios Flexibles</h4>
-                        <p className='text-lg'>Puedes contar con nuestra asesoría más básica o pedirnos que nos encarguemos de todo (personal, materiales, seguros, etc), tú decides SIEMPRE.</p>
+                        <p className='text-lg'>Podes contar con nuestra asesoría más básica o pedirnos que nos encarguemos de todo (personal, materiales, seguros, etc), vos decidis SIEMPRE.</p>
                     </li>
                 </ul>
             </CardBody>

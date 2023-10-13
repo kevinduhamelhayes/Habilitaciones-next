@@ -22,9 +22,9 @@ function CardDireccion({ className }: CardDireccionProps) {
           <li>Supervisión rigurosa en cada etapa.</li>
           <li>Gestión eficiente de equipos profesionales.</li>
           <li>Cumplimiento estricto de normativas y calidad.</li>
-          <li>Reportes detallados del progreso.</li>
+          <li>Reportes de progreso.</li>
           <li>Solución rápida a desafíos técnicos.</li>
-          <li>Prioridad en la seguridad del personal.</li>
+          <li>Prioridad en la seguridad y motivacion del equipo.</li>
         </ul>
       </CardBody>
     </Card>

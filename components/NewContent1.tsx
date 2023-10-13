@@ -11,15 +11,15 @@ const NewContent1 = () => {
                 <ul>
                     <li className='mb-6'>
                         <h4 className='text-xl font-semibold'>Mira nuestras obras:</h4>
-                        <p className='text-lg'>Puedes ver todos los antes y después, ahí tendrás una idea de nosotros, si tienes una idea innovadora consúltanos, no te olvides de pasar por la sección de preguntas frecuentes.</p>
+                        <p className='text-lg'>Podes ver todos los antes y después, ahí tenes una idea de nosotros, si tenes un proyecto innovador consúltanos, no te olvides de pasar por la sección de preguntas frecuentes.</p>
                     </li>
                     <li className='mb-6'>
-                        <h4 className='text-xl font-semibold'>¿Quieres darle un giro a un ambiente de tu casa, industria o negocio?</h4>
+                        <h4 className='text-xl font-semibold'>¿Queres darle un giro a un ambiente de tu casa, industria o negocio?</h4>
                         <p className='text-lg'>Somos la mejor respuesta, no podemos asegurar ser los más baratos pero nuestros resultados hablan solos.</p>
                     </li>
                     <li className='mb-6'>
                         <h4 className='text-xl font-semibold'>Servicios a Industrias:</h4>
-                        <p className='text-lg'>Podemos trabajar con hasta 10kva, sistemas hidráulicos y neumáticos, gas con matrículas de primera, certificar puesta a tierra, planes de seguridad, y de evacuación, hacemos Planos, gestionamos ampliaciones, y mucho más! Te esperamos.</p>
+                        <p className='text-lg'>Podemos trabajar con hasta 10kva, sistemas hidráulicos y neumáticos, gas con matrículas de primera, certificar puesta a tierra, planes de seguridad, y de evacuación, hacemos Planos, gestionamos ampliaciones, y mucho más!, Te esperamos.</p>
                     </li>
                 </ul>
             </CardBody>

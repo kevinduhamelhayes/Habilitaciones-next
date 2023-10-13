@@ -10,6 +10,7 @@ const NewContent = () => {
                     <li className='mb-6'>
                         <h4 className='text-xl font-semibold'>Te ayudamos a salir de los largos trámites de la municipalidad</h4>
                         <p className='text-lg'>Puesta a tierra, Planos, Planes de evacuacion, Sistemas de deteccion de incendio, Certificacion electrica, Certificacion de Instalacion de Gas</p>
+                        <p className='text-lg'>Y muchas mas soluciones a tu alcance</p>
                     </li>
                     <li className='mb-6'>
                         <h4 className='text-xl font-semibold'>Tu contratista o arquitecto te dejo a medias?</h4>
@@ -17,7 +18,7 @@ const NewContent = () => {
                     </li>
                     <li className='mb-6'>
                         <h4 className='text-xl font-semibold'>Servicios Flexibles:</h4>
-                        <p className='text-lg'>Podemos enviarte desde un electricista para una urgencia, un cerrajero, hasta pactar la direccion de una obra completa, solo acercate por WhatsApp o via email y te responderemos rapidamente</p>
+                        <p className='text-lg'>Podemos enviarte desde un electricista para una urgencia, un cerrajero, hasta pactar la direccion de una obra completa, solo acercate por WhatsApp o via email y responderemos rapidamente</p>
                     </li>
                 </ul>
                 <div className='flex w-full flex-row justify-center gap-8'>

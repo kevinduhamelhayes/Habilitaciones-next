@@ -20,7 +20,6 @@ function CardTecnicos({ className }: CardTecnicosProps) {
       <CardBody className="scrollbar-hide min-h-[300px]">
         <ul className="px-1 space-y-2 text-lg">
           <li>Elaboración de informes técnicos</li>
-          <li>Inspecciones técnicas y certificaciones</li>
           <li>Consultoría Electrica, hidraulica neumatica y de gas</li>
           <li>Trabajos de medición y cálculos</li>
           <li>Regularizaciones y trámites ante entidades Litoral Gas, Epe</li>
